@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    display: grid;    
+    grid-template: 
+    "... .... ....  .... .... ...  ..." 30px
+    "... disp disp  disp disp disp ..." 60px
+    "... num7 num8  num9 div  ac   ..." 60px
+    "... num4 num5  num6 mul  ac   ..." 60px
+    "... num1 num2  num3 minu equa ..." 60px
+    "... num0 num00 plus plus equa ..." 60px
+    "... .... ....  .... .... ...  ..." 
+    / auto 60px 60px 60px 60px 60px auto;
+    line-height: 60px;
+    gap: 8px;
+}
+
+#center {
+    line-height: 128px;
+}
+
+.btn {
+    user-select: none;
+    border: solid black 1px;
+    font-size:30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.disp {
+    grid-area: disp;
+    font-size:30px;
+    text-align: right;
+    padding-right: 10px;
+    border: solid black 1px;
+}
+
+
+.num00 {
+    grid-area: num00;
+}
+
+.num0 {
+    grid-area: num0;
+}
+
+.num1 {
+    grid-area: num1;
+}
+
+.num2 {
+    grid-area: num2;
+}
+
+.num3 {
+    grid-area: num3;
+}
+
+.num4 {
+    grid-area: num4;
+}
+
+.num5 {
+    grid-area: num5;
+}
+
+.num6 {
+    grid-area: num6;
+}
+
+.num7 {
+    grid-area: num7;
+}
+
+.num8 {
+    grid-area: num8;
+}
+
+.num9 {
+    grid-area: num9;
+}
+
+.ac {
+    grid-area: ac;
+}
+
+.equa {
+    grid-area: equa;
+}
+
+.add {
+    grid-area: plus;
+}
+
+.sub {
+    grid-area: minu;
+}
+
+.mul {
+    grid-area: mul;
+}
+
+.div {
+    grid-area: div;
+}
